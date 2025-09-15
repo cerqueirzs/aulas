@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Trabalhando com formulários</h1>
+    <p>Formulario simples</p>
+
+    <form action=""> <!-- para criarmos um formulário-->
+        <p>
+            <label for="inome">Nome:</label> <!--label é obrigatório para todo input ou formulário e serve como etiqueta-->
+            <input type="text" name="nome" id="inome">
+         </p> <!--type é para sinalizar o que queremos o que a pessoa escreva--> <!--o input serve para adiconar o campo p usuario escever a info-->
+         <p>
+            <label for="isobrenome">Sobrenome</label>
+            <input type="text" name="nome" id="isobrenome">
+         </p>
+         <p>
+            <label for="iemail">E-mail</label>
+            <input type="email" name="email" id="iemail">
+         </p>
+         <p>
+           <label for="isenha">Senha</label>
+           <input type="password" name="senha" id="isenha" > <!--ID é o identificador do que vai ser escrito-->
+         </p>
+         
+         <p>
+            cor fav:
+            <label for="ivermelho">Marrom</label>
+            <input type="radio" id="imarrom" nome="cor">
+            <label for="ivermelho vinho"> Vermelho vinho</label>
+            <input type="radio" id="ivermelho vinho" nome="cor">
+            <label for="irosa">Rosa</label>
+            <input type="radio" id="irosa" nome="cor">
+         </p>
+         <p>
+            Gosto musical:
+            <input type="checkbox" id="itrap" name="trap">
+            <label for="itrap">Trap</label>
+         </p>
+         <p>Curso:
+            <select name="" id="">
+                <option value="">Selecione</option>
+                <option value="">Gestão Empresarial ERP</option>
+                <option value="">Desenvolvimnto Web</option>
+            </select>
+         </p>
+         <p>
+            <label for="imensagem">Mensagem</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+         </p>
+         <input type="submit" value="Enviar">
+         <input type="reset" value="Limpar"> 
+    </form>
+</body> 
+</html>
