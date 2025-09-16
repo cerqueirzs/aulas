@@ -3,10 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Introdução ao CSS</title>
+    <style>
+        p{
+            background-color: chocolate;
+            color: cornsilk;
+        }
+    </style>
 </head>
 <body> 
-    <h1>Itrodução CSS</h1>
-    
-</body>
+    <header>
+        <h1>O que é o CSS</h1> 
+         <p>CSS (Cascading Style Sheets ou folha de Estilo em Cascata) nada mais é que uma linguagem de estilo utilizada para descrever a apresentação de docs ecritos em HTML ou XML. Basicamente serve pra decorar, dar cor no fundo, letras, fontes diferentes etc, é tipo vc comprar roupas, tenis, e passas uma make </p>
+         <nav>
+            <a href="index.html">pagina inicial</a>
+            <a href="sobre.html">sobre</a>
+         </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Existem 3 maneiras de aplicar o CSS</h2>
+            <article class="grupo">
+                <h3 style="background-color: brown; color: rgb(255, 255, 230);">Inline</h3>
+                <p style="background-color: blue; color: rgb(248, 239, 227);">Na mesma linha, através de um atributo chamado style</p>
+            </article>
+            <article class="grupo">
+                <h3>Interno</h3>
+                <p>Dentro do mesmo documento HTML, através de uma tag chamada style</p>
+            </article>
+            <article class="grupo">
+                <h3>Externo</h3>
+                <p>Criando um novo arquivo, .css e utilizando seletores </p>
+        </article>
+        </section>
+    </main>
+    <footer>
+        <p>Todos os direitos reservados- 2025</p>
+    </footer>
+    </body>
 </html>
